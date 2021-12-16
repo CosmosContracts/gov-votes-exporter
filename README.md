@@ -7,3 +7,7 @@ Governance votes get garbage collected on state after the gov proposal ends voti
 
 Set proposal id and RPC endpoint in `main.js`. 
 Run `npm run dev`
+
+# Find addresses who voted all the proposals
+
+Run `npm run find-all-voters`
