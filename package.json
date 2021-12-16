@@ -6,7 +6,8 @@
   "type": "module",
   "scripts": {
     "dev": "node main.js",
-    "find-all-voters": "node all_voters.js",
+    "find-all-voters": "node find_all_voters.js",
+    "find-unique-voters": "node find_unique_voters.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
