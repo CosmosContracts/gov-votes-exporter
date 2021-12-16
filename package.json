@@ -1,0 +1,17 @@
+{
+  "name": "gov-votes-exporter",
+  "version": "1.0.0",
+  "description": "export votes from transaction history of cosmos rpc endpoints",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@cosmjs/stargate": "^0.26.5",
+    "@cosmjs/tendermint-rpc": "^0.26.5"
+  }
+}
